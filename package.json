@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "sirv ./src public --cors --single --no-clear --port 8000",
-    "build": "npm run build",
+    "build": "cp -r src public",
     "build:azure": "npm run build"
-  },
-  "engines": {
-    "node": ">= 14.0.0"
   }
-
 }
