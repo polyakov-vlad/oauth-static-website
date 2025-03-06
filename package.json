@@ -5,5 +5,9 @@
     "start": "sirv ./src public --cors --single --no-clear --port 8000",
     "build": "npm run build",
     "build:azure": "npm run build"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
   }
+
 }
